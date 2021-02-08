@@ -1,0 +1,96 @@
+# Application 'atffoote', environment 'dev'.
+dev:
+  root: /var/www/html/atffoote.dev/docroot
+  ac-site: atffoote
+  ac-env: dev
+  ac-realm: prod
+  uri: atffootedev.prod.acquia-sites.com
+  dev.livedev:
+    parent: '@atffoote.dev'
+    root: /mnt/gfs/atffoote.dev/livedev/docroot
+  host: atffootedev.ssh.prod.acquia-sites.com
+  user: atffoote.dev
+  paths:
+    drush-script: drush9
+
+
+# Application 'atffoote', environment 'dev2'.
+dev2:
+  root: /var/www/html/atffoote.dev2/docroot
+  ac-site: atffoote
+  ac-env: dev2
+  ac-realm: prod
+  uri: atffootedev2.prod.acquia-sites.com
+  dev2.livedev:
+    parent: '@atffoote.dev2'
+    root: /mnt/gfs/atffoote.dev2/livedev/docroot
+  host: atffootedev2.ssh.prod.acquia-sites.com
+  user: atffoote.dev2
+  paths:
+    drush-script: drush9
+
+
+# Application 'atffoote', environment 'df'.
+df:
+  root: /var/www/html/atffoote.df/docroot
+  ac-site: atffoote
+  ac-env: df
+  ac-realm: prod
+  uri: atffootedf.prod.acquia-sites.com
+  df.livedev:
+    parent: '@atffoote.df'
+    root: /mnt/gfs/atffoote.df/livedev/docroot
+  host: atffootedf.ssh.prod.acquia-sites.com
+  user: atffoote.df
+  paths:
+    drush-script: drush9
+
+
+# Application 'atffoote', environment 'prod'.
+prod:
+  root: /var/www/html/atffoote.prod/docroot
+  ac-site: atffoote
+  ac-env: prod
+  ac-realm: prod
+  uri: atffoote.prod.acquia-sites.com
+  prod.livedev:
+    parent: '@atffoote.prod'
+    root: /mnt/gfs/atffoote.prod/livedev/docroot
+  host: atffoote.ssh.prod.acquia-sites.com
+  user: atffoote.prod
+  paths:
+    drush-script: drush9
+
+
+# Application 'atffoote', environment 'ra'.
+ra:
+  root: /var/www/html/atffoote.ra/docroot
+  ac-site: atffoote
+  ac-env: ra
+  ac-realm: prod
+  uri: atffootera.prod.acquia-sites.com
+  ra.livedev:
+    parent: '@atffoote.ra'
+    root: /mnt/gfs/atffoote.ra/livedev/docroot
+  host: atffootera.ssh.prod.acquia-sites.com
+  user: atffoote.ra
+  paths:
+    drush-script: drush9
+
+
+# Application 'atffoote', environment 'test'.
+test:
+  root: /var/www/html/atffoote.test/docroot
+  ac-site: atffoote
+  ac-env: test
+  ac-realm: prod
+  uri: atffootestg.prod.acquia-sites.com
+  test.livedev:
+    parent: '@atffoote.test'
+    root: /mnt/gfs/atffoote.test/livedev/docroot
+  host: atffootestg.ssh.prod.acquia-sites.com
+  user: atffoote.test
+  paths:
+    drush-script: drush9
+
+
