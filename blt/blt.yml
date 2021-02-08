@@ -1,0 +1,11 @@
+project:
+  machine_name: mj7
+  prefix: ATFGOV
+disable-targets:
+  blt:
+    shell-alias:
+      init: true
+git:
+  default_branch: develop-build
+  remotes:
+    cloud: 'atffoote@svn-21939.prod.hosting.acquia.com:atffoote.git'
